@@ -1,0 +1,53 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Cera Pro', sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+.subheading {
+    color: #ccc;
+    margin-bottom: 40px;
+}
+.email-form {
+    margin-bottom: 30px;
+}
+.email-form input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.email-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.socials img {
+    width: 32px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.contact {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+.contact a {
+    color: #ccc;
+    text-decoration: none;
+}
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+}
