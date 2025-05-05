@@ -32,6 +32,12 @@ h1 {
     color: #000;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background -color: #000;
+    color: #fff;
 }
 .socials img {
     width: 32px;
