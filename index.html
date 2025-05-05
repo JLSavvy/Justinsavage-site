@@ -14,11 +14,12 @@
     <h1>New Website Loading...</h1>
     <p class="subheading">Stay tuned for something exciting</p>
 
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdiAv-gnCk8GLg5GrQ8s2so3v9DQXOskfzkpLZEXbVRkQ2v5A/formResponse" method="POST" target="_blank">
-      <label for="email" class="visually-hidden">Email address</label>
-      <input type="email" id="email" name="entry.1234567890" placeholder="Enter your email" required />
-      <button type="submit">Be the first to know</button>
-    </form>
+    <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+  <input type="email" name="entry.1234567890" placeholder="Enter your email" required />
+  <button type="submit">Be the first to know</button>
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
   </div>
 </body>
 </html>
